@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Pembersihan Kaca</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- Navigation Bar -- Start -->
+        <nav class="bg-white text-blue-500 px-5 py-5 flex items-center justify-between border-b-3 border-gray-200">
+            <div class="font-bold">High-rise Window Cleaner</div>
+
+            <ul class="space-x-10 hidden md:flex">
+                <li><a href="" class="border-b border-transparent transition-colors duration-300 hover:border-blue-500 py-2">Beranda</a></li>
+                <li><a href="" class="border-b border-transparent transition-colors duration-300 hover:border-blue-500 py-2">Tentang Kami</a></li>
+                <li><a href="" class="border-b border-transparent transition-colors duration-300 hover:border-blue-500 py-2">Produk</a></li>
+                <li><a href="" class="border-b border-transparent transition-colors duration-300 hover:border-blue-500 py-2">Layanan</a></li>
+                <li><a href="" class="border-b border-transparent transition-colors duration-300 hover:border-blue-500 py-2">Kontak</a></li>
+            </ul>
+
+            <form action="" class="hidden md:flex">
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors duration-300">Hubungi Kami</button>
+            </form>
+
+            <div id="humberger-menu" class="font-bold md:hidden">☰</div>
+        </nav>
+
+        <!-- Mobile Nav -->
+        <div id="mobile-nav" class="hidden md:hidden bg-white border-b border-gray-200">
+            <ul class="flex flex-col space-y-3 p-5">
+                <li><a href="" class="border-b border-transparent transition-colors duration-300 hover:border-blue-500 py-2">Beranda</a></li>
+                <li><a href="" class="border-b border-transparent transition-colors duration-300 hover:border-blue-500 py-2">Tentang Kami</a></li>
+                <li><a href="" class="border-b border-transparent transition-colors duration-300 hover:border-blue-500 py-2">Produk</a></li>
+                <li><a href="" class="border-b border-transparent transition-colors duration-300 hover:border-blue-500 py-2">Layanan</a></li>
+                <li><a href="" class="border-b border-transparent transition-colors duration-300 hover:border-blue-500 py-2">Kontak</a></li>
+            </ul>
+
+            <form action="" class="p-5">
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors duration-300 w-full">Hubungi Kami</button>
+            </form>
+        </div>
+    <!-- Navigation Bar -- End -->
+
+
+    
+
+
+    <script>
+    // Navbar Scipt - START
+        const humbergerMenu = document.getElementById('humberger-menu');
+        const mobileNav = document.getElementById('mobile-nav');
+
+        humbergerMenu.addEventListener('click', () => {
+            mobileNav.classList.toggle('hidden');
+        });
+    // Navbar SCRIPT - end
+    </script>
+</body>
+</html>
